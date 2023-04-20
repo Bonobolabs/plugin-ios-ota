@@ -7,7 +7,7 @@
 //
 
 
-#if TARGET_OS_SIMULATOR
+#if TARGET_OS_SIMULATOR || TARGET_OS_MACCATALYST
 
 #import <Foundation/Foundation.h>
 #import "OneSkyOTAPlugin.h"
